@@ -4,3 +4,8 @@ cockpit/data/
 *.log
 .DS_Store
 .claude/
+
+# Local configuration and secrets. The example file is the only one that ships.
+.env
+.env.*
+!.env.example
